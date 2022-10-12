@@ -1,0 +1,15 @@
+{
+    "name": "deepydee/docker-private-package",
+    "description": "An example private composer package",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Bitpress\\DockerPrivatePackage\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
